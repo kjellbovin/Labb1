@@ -5,7 +5,7 @@ print(' ************************************************************************
 
 var1 = (input("Ange längden på en av figurens sidor (i cm): "))
 var1 = float(var1.replace(',', '.'))
-kub = round((var1 * var1 * var1), 2)
+kub = round((var1 ** 3), 2)
 tetra = round(math.sqrt(kub /6), 2)
 
 print('Kubens volym', kub, 'cm3')
